@@ -1,7 +1,7 @@
 # Breast Cancer Prediction
 
 ## Overview
-This project is a deep learning-based approach to predict breast cancer using the **Breast Cancer Wisconsin Dataset** from **scikit-learn**. The model is built using **PyTorch** and achieves **96.49% accuracy** on test data.
+This project is a deep learning-based approach to predict breast cancer using the **Breast Cancer Wisconsin Dataset** from **scikit-learn**. The model is built using **PyTorch** and achieves ** 98.25% accuracy** on test data.
 
 ## Features
 - Uses **Breast Cancer Wisconsin Dataset** for classification.
@@ -51,18 +51,14 @@ The model is trained for **100 epochs** using **Binary Cross Entropy Loss (BCELo
 
 ### Sample Output
 ```bash
-Epoch [100/100], Loss : 0.1223, Accuracy: 97.36%
-Accuracy on training data: 97.36%
-Accuracy on test data: 96.49%
+Epoch [100/100], Loss : 0.1084, Accuracy: 97.80%
+Accuracy on training data: 97.80%
+Accuracy on test data: 98.25%
 ```
 
 ## Test Data & Predictions
 The script prints the **test dataset, actual labels, and predicted labels**.
 
-## Future Enhancements
-- Add **hyperparameter tuning**.
-- Implement **dropout** to reduce overfitting.
-- Compare with other ML models like **SVM, Random Forest**.
 
 
 
